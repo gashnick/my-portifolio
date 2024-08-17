@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+.name {
+  color: rgba(22, 52, 244, 0.941);
+}
+.dot {
+  color: grey;
+}
+.header-contents {
+  max-width: 800px;
+}
+.header-contents h1 {
+  font-size: 62px;
+}
+.header-contents p {
+  font-size: 18px;
+  margin: 25px 0 30px;
+}
+
+.btn-box {
+  width: 345px;
+  display: flex;
+  gap: 2em;
+}
+.header-button {
+  padding: 15px 28px;
+  background-color: rgba(22, 52, 244, 0.941);
+  color: white;
+  font-size: 15px;
+  border: 1px solid rgba(22, 52, 244, 0.941);
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.header-button-cv {
+  padding: 15px 28px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border: 1px solid black;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.header-image {
+  opacity: 0.5;
+  width: 550px;
+}
