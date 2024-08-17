@@ -3,8 +3,14 @@
 }
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img {
   display: block;
   max-width: 100%;
+}
+.white_bg {
+  background-image: url(./images/header1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
